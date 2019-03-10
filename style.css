@@ -159,11 +159,6 @@ hr {
     font-family: 'Comfortaa', cursive;
 }
 
-
-.second_para2 h3, .second_para2 p {
-    padding-left: 30px; 
-}
-
 .our_team {
     background-color: rgb(255, 246, 240);
     margin-top: 50px;
@@ -228,8 +223,10 @@ hr {
     text-align: left;
 }
 
-.logo{
-    padding-top: 15px;
+
+.logo>img{
+    width: 80%;
+    padding: 10px;
 }
 
 .innerfooter p {
@@ -265,11 +262,25 @@ hr {
     }
 }
 
+
+@media only screen and (min-width:426px){
+    .logo>img{
+        width: 150px !important;
+
+    }
+}
+
 @media only screen and (max-width:768px){
 .second_para img {
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+}
+
+.logo>img{
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .land {
@@ -304,6 +315,13 @@ hr {
         padding-top: 40px;
     }
 
+    .logo>img{
+        width: 40% !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px;
+    }
+
+
     .land img {
         width: 40vh;
         margin-bottom: 0px;
@@ -321,9 +339,24 @@ hr {
 }
 
 
+@media only screen and (max-width:1024px){
+    .logo>img{
+        width: 90%;
+        padding-top: 20px;
+    }
+}
+
 @media only screen and (max-width:1440px){
 .land img {
     padding-top: 30px;
     padding-bottom: 10px;    
 }
 }
+@media (max-width:575px) and (min-width:424px){
+
+    .logo>img{
+    width: 40% !important;
+    padding-top: 20px;
+}
+}
+
