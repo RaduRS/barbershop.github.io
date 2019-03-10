@@ -1,0 +1,256 @@
+
+.jumbotron {
+    background-image: url("images/barber2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 960px;
+}
+
+.navbar {
+    background: rgba(122, 130, 136, 0)!important;
+    width: 60%;
+    margin: 10px auto;
+    padding-top: 0px !important;
+    min-height: 53px;
+}
+
+.land {
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.land p {
+    color: rgb(58, 58, 58);
+    font-size: 1.5em;
+    width: 450px;
+    padding-top: 80px;
+    font-weight: 200;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 1px 1px;
+}
+
+.land p a{
+    margin-top: -100px;
+}
+
+.barber {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.barber img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px;
+}
+
+#submit {
+    width: 100%;
+}
+
+.first_para {
+    color: rgb(66, 41, 20);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    padding: 50px 20px;
+    font-size: 1.1em;
+}
+
+.first1 {
+    padding: 10px 0px;
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    background-color: lightgray;
+}
+
+input:hover {
+    background-color: white;
+}
+input:active {
+    background-color: white;
+}
+
+section h1 {
+    text-transform: uppercase;
+    padding-top: 5px !important;
+    color: rgb(194, 140, 95);
+    text-shadow: 0 1px 4px;
+}
+
+
+#submit {
+    background-color: rgb(194, 140, 95);
+    border-color: rgb(194, 140, 95);
+    color: white;
+    transition: all 1s;
+}
+
+#submit:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: #FFD2AD !important;
+}
+
+hr {
+    width: 1120px;
+    border: none;
+    height: 2px;
+    background-color: #FFD2AD;
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+
+.second_para img {
+    width: 650px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.second_para2 img {
+    width: 600px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 30px
+}
+
+.second_para p {
+    border: 1px solid rgb(194, 140, 95);
+    width: 200px;
+    font-family: 'Comfortaa', cursive;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 250px;
+    color: rgb(128, 63, 10);
+    margin-bottom: 40px;
+}
+
+.second_paraimg img {
+    width: 500px;
+}
+
+.second_para2 {
+    color: rgb(128, 63, 10);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.second_para2 h3, .second_para2 p {
+    padding-left: 30px; 
+}
+
+.our_team {
+    background-color: rgb(255, 246, 240);
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+
+.ourpic img {
+    width: 150px;
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    transition: all 1s;
+}
+
+.ourpic img:hover {
+    transform: scale(1.2);
+}
+
+.ourpic h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ourpic h5, .ourpic p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ourpic p {
+    color: gray;
+}
+
+.ourpic h5{
+    color: rgb(180, 97, 29);
+}
+
+/* .booking {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 50px 0px;
+} */
+
+
+.wrapper {
+    margin: 0px auto;
+    background-color: rgb(32, 32, 32);
+    padding: 0;
+    width: 100%;
+}
+
+.innerfooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.65em;
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+}
+
+.logo{
+    padding-top: 15px;
+}
+
+.innerfooter p {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.innerfooter p a {
+    text-decoration: none;
+    color: white;
+}
+
+.innerfooter p a:hover {
+    text-decoration: underline;
+    color: rgb(241, 198, 173);
+}
+
+#boot, #boot a{
+    text-decoration: none;
+    color: white;
+}
+
+#boot a:hover {
+    color: rgb(241, 198, 173);
+    text-decoration: underline;
+}
