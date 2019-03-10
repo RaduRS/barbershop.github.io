@@ -1,10 +1,12 @@
-
 .jumbotron {
+    display: flex;
     background-image: url("images/barber2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 960px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar {
@@ -13,38 +15,38 @@
     margin: 10px auto;
     padding-top: 0px !important;
     min-height: 53px;
+}  
+
+.land img {
+    display: block;
+    margin: 0 auto;
+    width: 50vh;
+    padding-bottom: 70px
 }
 
-.land {
+/* .land {
     text-align: center;
     margin-right: 100px;
     margin-top: 20px;
-}
+} */
 
 .land p {
-    color: rgb(58, 58, 58);
+    text-align: center;
+    color: rgb(255, 236, 225);
     font-size: 1.5em;
-    width: 450px;
+    width: 50%;
     padding-top: 80px;
     font-weight: 200;
     font-family: 'Comfortaa', cursive;
-    text-shadow: 1px 1px;
+    text-shadow: 0px 0px 3px;
 }
 
 .land p a{
     margin-top: -100px;
 }
 
-.barber {
-    height: 300px;
-    margin-bottom: 30px;
-}
-
 .barber img {
-    display: block;
-    margin: 0 auto;
-    width: 500px;
-    height: 300px;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
@@ -113,7 +115,7 @@ section h1 {
 }
 
 hr {
-    width: 1120px;
+    width: 80%;
     border: none;
     height: 2px;
     background-color: #FFD2AD;
@@ -122,14 +124,13 @@ hr {
 }
 
 .second_para img {
-    width: 650px;
+    width: 120%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
 
 .second_para2 img {
-    width: 600px;
-    height: 350px;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     margin-top: 100px;
@@ -143,13 +144,13 @@ hr {
     padding: 15px;
     text-align: center;
     margin-top: 40px;
-    margin-left: 250px;
+    margin-left: auto;
     color: rgb(128, 63, 10);
     margin-bottom: 40px;
 }
 
 .second_paraimg img {
-    width: 500px;
+    width: 100%;
 }
 
 .second_para2 {
@@ -255,4 +256,74 @@ hr {
 #boot a:hover {
     color: rgb(241, 198, 173);
     text-decoration: underline;
+}
+
+
+@media only screen and (max-width:600px){
+    .second_paraimg img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px){
+.second_para img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.land {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.land p {
+    font-size: 1.3em;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.land p a{
+    margin-top: 20px;
+}
+
+.land img {
+    width: 45vh;
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width:425px){
+    .land p {
+        display: block;
+        margin: 0 auto; 
+        font-size: 1.3em;
+        width: 200px;
+        padding-top: 40px;
+    }
+
+    .land img {
+        width: 40vh;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width:991px){
+.barber{
+    padding-top: 40px;
+}
+
+.first_para {
+    padding: 0;
+}
+}
+
+
+@media only screen and (max-width:1440px){
+.land img {
+    padding-top: 30px;
+    padding-bottom: 10px;    
+}
 }
